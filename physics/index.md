@@ -10,14 +10,14 @@ I graduated from the University of Calfornia, Berkeley in 2013 with a Ph.D. in
 theoretical physics. My advisor was [Birgitta Whaley](http://www.cchem.berkeley.edu/kbwgrp/).
 
 ![Fenna-Matthews-Olson complex]({{ site.url }}/images/fmo-top-down.jpg)
-{: .image-pull-right}
+{: .image-pull-right .max-width-50}
 
 # Research
 
-My dissertation research was on [the role of electronic quantum coherence in photosynthetic energy transfer](http://www2.lbl.gov/Science-Articles/Archive/PBD-quantum-secrets.html).Here are a few of the overarching questions that I aimed to answer:
+My dissertation research was on [the role of electronic quantum coherence in photosynthetic energy transfer](http://www2.lbl.gov/Science-Articles/Archive/PBD-quantum-secrets.html):
 
 - Does quantum coherence contribute to biological function in photosynthesis?
-- How can we use statistics, optimization and quantum information theory to understand photosynthesis using ultrafast spectroscopy?
+- How can we use statistics, optimization and quantum information theory to design ultrafast  spectroscopy experiments on photosynthetic pigment-protein complexes?
 
 My main model system was the [Fenna-Matthews-Olson complex](http://en.wikipedia.org/wiki/Fenna-Matthews-Olson_complex) of green sulfur bacteria (shown right).
 
