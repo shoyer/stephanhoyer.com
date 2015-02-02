@@ -1,8 +1,9 @@
 # Site wide configuration
 
-title:            Site Title
-locale:           en_US
-url:              
+title: Stephan Hoyer
+description: "Physicist, data scientist and scientific Python developer."
+locale: en_US
+url: http://stephanhoyer.com
 
 
 # Jekyll configuration
@@ -26,23 +27,23 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email: 
-  disqus-shortname: 
-  twitter: #username
+  name: Stephan Hoyer
+  avatar: stephan-hoyer.jpg
+  bio: "Physicist, data scientist and scientific Python developer."
+  email: #shoyer@gmail.com
+  disqus-shortname:
+  twitter: shoyer
   facebook: #username
   google:
     plus: #username
-    analytics: 
-    verify: 
-    ad-client: 
-    ad-slot: 
-  bing-verify: 
-  github: #username
+    analytics: UA-9101891-2
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: shoyer
   stackoverflow: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+  linkedin: stephanhoyer
   instagram: #username
   lastfm: #username
   tumblr: #username

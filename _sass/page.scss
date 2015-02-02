@@ -8,7 +8,7 @@ body {
 	color: $text-color;
 }
 
-/* 
+/*
    Header
    ========================================================================== */
 
@@ -79,7 +79,7 @@ body {
 			white-space: nowrap;
 			border-bottom: 0 solid transparent;
 		}
-		a { 
+		a {
 			display: block;
 			padding: 10px 0;
 			decoration: none;
@@ -165,11 +165,11 @@ $button-size: 1.5rem;
 	}
 }
 // Style the toggle menu link and hide it
-.nav .navtoogle {	
+.nav .navtoogle {
 	@include font-rem(18);
 	font-weight: normal;
 	background-color: $black;
-	color: $white;	
+	color: $white;
 	border: none;
 	cursor: pointer;
 	@media #{$small} {
@@ -206,7 +206,7 @@ $button-size: 1.5rem;
 	}
 }
 // Displaying the menu when the user has clicked on the button
-.js .nav .active + ul {		
+.js .nav .active + ul {
 	max-height: 30em;
 	overflow: hidden;
 	-webkit-transition: max-height .4s;
@@ -288,7 +288,7 @@ $button-size: 1.5rem;
 	position: relative;
 	margin-bottom: 2em;
 	@include clearfix;
-	&:after {
+/*	&:after {
 		content: " ";
 		display: block;
 		position: absolute;
@@ -308,7 +308,7 @@ $button-size: 1.5rem;
 			left: 33.333333333%;
 		}
 	}
-	img {
+*/	img {
 		width: 100%;
 		height: auto;
 		-ms-interpolation-mode: bicubic;
@@ -352,23 +352,17 @@ $button-size: 1.5rem;
 
 /* Default social media links in author sidebar */
 .author-social {
-  display: block;
+  display: inline;
   margin-bottom: 5px;
-  @include font-rem(14);
+  @include font-rem(24);
   color: $black;
   &:visited {
     color: $black;
   }
-  &:hover {
-    @include scale(1.1);
-  }
-  &:active {
-    @include translate(0, 2px);
-  }
-  .fa {
+/*  .fa {
 		margin-right: 5px;
 	}
-}
+*/}
 
 /* Author sidebar */
 .article-author-side {
@@ -382,11 +376,11 @@ $button-size: 1.5rem;
 		@include grid(12,2);
 		@include prefix(12,0.5);
 		@include suffix(12,0.5);
-		h3,
+/*		h3,
 		p,
-		.author-social {
-			display: block;
-			max-width: 125px;
+*/		.author-social {
+			/*display: block;*/
+			/*max-width: 125px;*/
 		}
 		h3 {
 			margin-top: 10px;
@@ -548,7 +542,7 @@ $button-size: 1.5rem;
 	margin: 1em 0;
 	li {
 		display: inline;
-		a { 
+		a {
 			border-bottom: 0 solid transparent;
 			&:hover {
 				border-bottom: 0 solid transparent;
@@ -574,7 +568,7 @@ $button-size: 1.5rem;
   li {
   	display: inline-block;
   }
-  $social: 
+  $social:
   (facebook, $facebook-color),
   (flickr, $flickr-color),
   (foursquare, $foursquare-color),
@@ -590,7 +584,7 @@ $button-size: 1.5rem;
   @each $socialnetwork, $color in $social {
     .#{$socialnetwork} {
       background: $color;
-    }    
+    }
   }
   a {
 	  display: block;
@@ -634,7 +628,7 @@ $button-size: 1.5rem;
 	h4,
 	h5,
 	h6,
-	span { 
+	span {
 		@include font-rem(14);
 	}
 	footer {
@@ -679,7 +673,7 @@ $button-size: 1.5rem;
 	}
 }
 
-/* 
+/*
    Browser upgrade alert
    ========================================================================== */
 
@@ -699,7 +693,7 @@ $button-size: 1.5rem;
 		}
 	}
 }
-/* 
+/*
    Google search form
    ========================================================================== */
 
