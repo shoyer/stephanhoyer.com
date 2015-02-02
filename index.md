@@ -2,6 +2,12 @@
 layout: page
 ---
 
+<footer role="contentinfo">
+  <div class="article-author-bottom">
+    {% include _author-bio.html %}
+  </div>
+</footer>
+
 # Education
 
 **University of Calfornia, Berkeley**<br />
