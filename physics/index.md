@@ -4,7 +4,7 @@ title: "Physics"
 modified: 2015-02-01
 ---
 
-# Ph.D.
+## Ph.D.
 
 I graduated from the University of Calfornia, Berkeley in 2013 with a Ph.D. in
 theoretical physics. My advisor was [Birgitta Whaley](http://www.cchem.berkeley.edu/kbwgrp/).
@@ -12,7 +12,7 @@ theoretical physics. My advisor was [Birgitta Whaley](http://www.cchem.berkeley.
 ![Fenna-Matthews-Olson complex]({{ site.url }}/images/fmo-top-down.jpg)
 {: .image-pull-right .max-width-50}
 
-# Research
+## Research
 
 My dissertation research was on [the role of electronic quantum coherence in photosynthetic energy transfer](http://www2.lbl.gov/Science-Articles/Archive/PBD-quantum-secrets.html):
 
@@ -23,7 +23,7 @@ My main model system was the [Fenna-Matthews-Olson complex](http://en.wikipedia.
 
 My work involved developing new mathematical techniques, more efficient computational methods and research software (in Python) that I am still preparing to open source. I took part in collaborations across 3 continents, wrote 6 papers (2 more in progress) and presented at 12 international conferences. I was supported by a [fellowship](http://science.energy.gov/wdts/scgf/) from the Department of Energy Office of Science.
 
-# Publications
+## Publications
 
 <ol reversed="reversed">
     <li>S Jang, S Hoyer, G Fleming, KB Whaley. <a href="/pubs/PhysRevLett.113.188102.pdf"><b>Generalized Master Equation with Non-Markovian Multichromophoric Förster Resonance Energy Transfer for Modular Exciton Densities</b></a>, Phys Rev Lett <b>113</b>, 188102 (2014). <a href="http://arxiv.org/abs/1311.2091">arXiv:1311.2091</a></li>
