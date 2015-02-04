@@ -19,9 +19,9 @@ My dissertation research was on [the role of electronic quantum coherence in pho
 - Does quantum coherence contribute to biological function in photosynthesis?
 - How can we use statistics, optimization and quantum information theory to design ultrafast  spectroscopy experiments on photosynthetic pigment-protein complexes?
 
-My main model system was the [Fenna-Matthews-Olson complex](http://en.wikipedia.org/wiki/Fenna-Matthews-Olson_complex) of green sulfur bacteria (shown right).
+My main model system was the [Fenna-Matthews-Olson complex](http://en.wikipedia.org/wiki/Fenna-Matthews-Olson_complex) of green sulfur bacteria (shown above).
 
-My work involved developing new mathematical techniques, more efficient computational methods and research software (in Python) that I am still preparing to open source. I took part in collaborations across 3 continents, wrote 6 papers (2 more in progress) and presented at 12 international conferences. I was supported by a [fellowship](http://science.energy.gov/wdts/scgf/) from the Department of Energy Office of Science.
+My work involved developing new mathematical techniques, more efficient computational methods and research software (mostly in Python). I collaborated with researchers in [Taiwan](http://quantum.ch.ntu.edu.tw/ycclab/), [Germany](http://qubit-ulm.com/), [New York](http://chem.qc.cuny.edu/~sjjang/) and [Berkeley](http://www.cchem.berkeley.edu/grfgrp/), wrote 6 papers and presented at 12 conferences. For the last three years of my program, I was supported by a [fellowship](http://science.energy.gov/wdts/scgf/) from the US Department of Energy. I spent summer 2010 as an [EAPSI fellow](http://www.nsf.gov/eapsi) at National Taiwan Unviersity.
 
 ## Publications
 
