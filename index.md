@@ -26,6 +26,8 @@ B.A. Physics, 2008
 
 # Contact
 
+<p>
 I live in San Francisco, California.
-Reach me on [Twitter](https://twitter.com/shoyer) or at
-[shoyer@gmail.com](mailto:shoyer@gmail.com).
+Reach me on <a href="https://twitter.com/shoyer">Twitter</a> or at
+<script>document.write("<n uers=\"znvygb:fublre@tznvy.pbz\">fublre@tznvy.pbz</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}))</script><noscript><span style="unicode-bidi:bidi-override;direction:rtl;">moc.liamg@reyohs</span></noscript>
+</p>
