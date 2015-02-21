@@ -4,6 +4,7 @@ title: Stephan Hoyer
 description: "Physicist, data scientist and scientific Python developer."
 locale: en_US
 url: http://stephanhoyer.com
+# url: http://localhost:4000
 image:
   feature: fractal-header.jpg
 

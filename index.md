@@ -1,5 +1,7 @@
 ---
 layout: page
+image:
+  feature: lost-coast.jpg
 ---
 
 <footer role="contentinfo">
