@@ -1,14 +1,12 @@
 ---
 layout: post
 title: "Numba vs Cython: How to Choose"
-modified:
-categories:
 excerpt: "The non-performance trade-offs between using Numba and Cython for
 accelerating scientific Python code"
-tags: []
-image:
-  feature:
+modified:
+categories:
 date: 2015-03-22T17:00:00-07:00
+draft: true
 ---
 
 Recently, [Dale Jung](http://dalejung.com) asked me about my heuristics for
