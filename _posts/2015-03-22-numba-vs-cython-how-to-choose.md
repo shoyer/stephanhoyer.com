@@ -7,6 +7,7 @@ modified:
 categories:
 date: 2015-03-22T17:00:00-07:00
 draft: true
+comments: true
 ---
 
 Recently, [Dale Jung](http://dalejung.com) asked me about my heuristics for
