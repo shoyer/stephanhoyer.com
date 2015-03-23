@@ -10,7 +10,7 @@ image:
 
 # Jekyll configuration
 
-permalink:   /:categories/:title/
+permalink:   pretty
 markdown:    kramdown
 highlighter: pygments
 sass:
