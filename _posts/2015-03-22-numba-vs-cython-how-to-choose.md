@@ -18,15 +18,61 @@ to one person, here's an extended version of my reply.
 
 <hr />
 
-Numba and Cython are two tools I can recommend for accelerating scientific
-Python code. There are plenty of examples out there comparing performance for
-Cython, Numba and other options (I like
-[this post](https://jakevdp.github.io/blog/2013/06/15/numba-vs-cython-take-2/)
-by Jake VanderPlas), but these don't make the choice easy. Both can produce
-highly performant code that looks a lot like normal Python, and the speed
-differences aren't large or general enough to make either a clear winner.
+Most of the time, libraries like [NumPy](http://numpy.org),
+[SciPy](http://scipy.org) and [pandas](http://pandas.pydata.org), whose
+critical loops are already written in a compiled language like C, are enough
+fast scientific Python code.
 
-Here are my thoughts, broken down by some guiding questions.
+Unfortunately, sometimes you need to write your own loop in performance
+critical paths of your code, and unfortunately loops in Python are painfully
+slow. This is where Numba and Cython come in: they both promise the ability to
+write the inner loop of your code in something that looks a lot like normal
+Python, but that runs about as fast as handwritten C.
+
+Numba uses LLVM to power Just-In-Time compilation of array oriented Python
+code. Using Numba is usually about as simple as adding a decorator to your
+functions:
+{% highlight python %}
+from numba import jit
+
+@jit
+def numba_mean(x):
+    total = 0
+    for xi in x:
+        total += xi
+    return total / len(x)
+{% endhighlight %}
+You can supply optional types, but they aren't required for performant code,
+as Numba can compile functions on the fly using its JIT compiler.
+
+In contrast, Cython is a general purpose tool (not just for array
+oriented computing) that compiles Python into C extensions. To see impressive
+speedups, you need to manually add types:
+{% highlight cython %}
+def cython_mean(double[:] x):
+    cdef double total = 0
+    for i in range(len(x)):
+        total += x[i]
+    return total / len(x)
+{% endhighlight %}
+
+When I benchmark this example, IPython's `%timeit` reports that calling this
+function on a 100000 element array takes on average ~93 µs with Numba and ~96
+µs with Cython. The undecorated function in pure Python is 17x slower.
+(`numpy.mean` is faster than either Cython or Numba, at ~60 µs, but here we're
+pretending that we needed to write our own custom function that was not already
+built in. And frankly, 50% slower than C is probably still fast enough.)
+
+This trivial example illustrates my broader experience with Numba and Cython:
+both are pretty easy to use, and result in roughly equivalently fast code.
+For similar results on a less contrived example, see
+[this blog post](https://jakevdp.github.io/blog/2013/06/15/numba-vs-cython-take-2/)
+by Jake VanderPlas.
+
+The bottom line is that even though performance is why we reach for tools like
+Numba and Cython, performance does not provide a good basis for choosing one
+over the other. Here are the questions I asked myself when making that choice
+for my projects.
 
 ## Is this code for one-off use or a library?
 
@@ -45,7 +91,8 @@ easy. Cython is also a more stable and mature platform, whereas the features
 and performance of Numba are still evolving.
 
 If you don't need to distribute your code beyond your computer or your team
-(especially if you use Conda), then Numba can be a great choice.
+(especially if you use Conda), then Numba can be a great choice. Otherwise, you
+should lean toward Cython.
 
 ## Do you need advanced Python features or to use C-level APIs?
 
@@ -62,7 +109,7 @@ Some of these are [design decisions](http://numba.pydata.org/numba-doc/0.17.0/us
 
 In contrast, Cython can compile arbitrary Python code, and can even directly
 call C. The ability to Cythonize an entire module written using advanced Python
-features and then only tweaks the bottlenecks for speed can be really nice.
+features and then only tweak the bottlenecks for speed can be really nice.
 
 For example, switching to an
 [extension type](http://docs.cython.org/src/userguide/extension_types.html) and
@@ -87,10 +134,13 @@ work even if `a` or `b` are multi-dimensional arrays (tensors), by following
 [broadcasting rules](http://docs.scipy.org/doc/numpy/user/basics.broadcasting.html).
 
 Numba makes it easy to accelerate functions with broadcasting by simply adding
-a [`vectorize`](http://numba.pydata.org/numba-doc/0.17.0/user/vectorize.html)
-decorator. In other cases, Numba can handle arbitrary dimensional input by
-using Just-In-Time compilation with `jit` or by creating generalized universal
-functions with `guvectorize`.
+the [`vectorize`](http://numba.pydata.org/numba-doc/0.17.0/user/vectorize.html)
+decorator. This produces universal functions (ufuncs) that automatically work
+(even preserving labels) on array-like data structures in the entire scientific
+Python ecosystem, including [xray](http://xray.readthedocs.org) and
+[pandas](http://pandas.pydata.org). In other cases, Numba can handle arbitrary
+dimensional input by using Just-In-Time compilation with `jit` or by creating
+generalized universal functions with `guvectorize`.
 
 In contrast, generally speaking, your Cython functions will only work for input
 with a number of dimensions that you determine ahead of time (e.g., a 1D
@@ -102,12 +152,11 @@ Keith Goodman has some nice examples in [version 1.0 of bottleneck](https://gith
 
 ## Still not sure?
 
-Give Numba a try. Numba is usually easier to write for the simple cases where
-it works. You may still run into annoying limitations when you try to do
-complex things but Numba has been getting a lot better, even just over the past
-few months (e.g., they recently added support for
+When I'm not constrained by other concerns, I'll try to make Numba work. Numba
+is usually easier to write for the simple cases where it works. You may still
+run into annoying limitations when you try to do complex things, but Numba has
+been getting a lot better, even just over the past few months (e.g., they
+recently added support for
 [generating random numbers](https://github.com/numba/numba/pull/981)).
-The Numba devs have also been highly responsive to the issues I've encountered
-writing [numbagg](https://github.com/shoyer/numbagg). At the end of the day,
-even if you ultimately can't get things to work to work, you'll still have
-idiomatic Python code that should be easy to accelerate with Cython.
+At the end of the day, even if you ultimately can't get things to work, you'll
+still have idiomatic Python code that should be easy to accelerate with Cython.
