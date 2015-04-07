@@ -24,10 +24,10 @@ critical loops are already written in a compiled language like C, are enough
 fast scientific Python code.
 
 Unfortunately, sometimes you need to write your own loop in performance
-critical paths of your code, and unfortunately loops in Python are painfully
-slow. This is where Numba and Cython come in: they both promise the ability to
-write the inner loop of your code in something that looks a lot like normal
-Python, but that runs about as fast as handwritten C.
+critical paths of your code, and also unfortunately loops in Python are
+painfully slow. This is where Numba and Cython come in: they both promise the
+ability to write the inner loop of your code in something that looks a lot like
+normal Python, but that runs about as fast as handwritten C.
 
 Numba uses LLVM to power Just-In-Time compilation of array oriented Python
 code. Using Numba is usually about as simple as adding a decorator to your
@@ -57,11 +57,11 @@ def cython_mean(double[:] x):
 {% endhighlight %}
 
 When I benchmark this example, IPython's `%timeit` reports that calling this
-function on a 100000 element array takes on average ~93 µs with Numba and ~96
-µs with Cython. The undecorated function in pure Python is 17x slower.
-(`numpy.mean` is faster than either Cython or Numba, at ~60 µs, but here we're
-pretending that we needed to write our own custom function that was not already
-built in. And frankly, 50% slower than C is probably still fast enough.)
+function on a 100000 element array takes ~16 ms with pure Python version, but
+only ~93 µs with Numba and ~96 µs with Cython. (`numpy.mean` is faster still,
+at ~60 µs, but here we're pretending that we needed to write our own custom
+function that was not already built in. And frankly, 50% slower than C is
+probably still fast enough.)
 
 This trivial example illustrates my broader experience with Numba and Cython:
 both are pretty easy to use, and result in roughly equivalently fast code.
@@ -85,7 +85,7 @@ basically in the experimental phase:
 [numbagg](https://github.com/shoyer/numbagg).
 
 The main issue is that it can be difficult to install Numba unless you use
-[Conda](http://conda.pydata.org/) (which I highly recommend). In contrast,
+[Conda](http://conda.pydata.org/) (and I recommend you should). In contrast,
 distributing a package with Cython based C-extensions is almost miraculous
 easy. Cython is also a more stable and mature platform, whereas the features
 and performance of Numba are still evolving.
