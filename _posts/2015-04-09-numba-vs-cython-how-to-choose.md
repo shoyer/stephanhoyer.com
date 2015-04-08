@@ -5,7 +5,7 @@ excerpt: "The non-performance trade-offs between using Numba and Cython for
 accelerating scientific Python code"
 modified:
 categories:
-date: 2015-04-08T16:16:00-07:00
+date: 2015-04-09T09:16:00-07:00
 draft: false
 comments: false
 ---
