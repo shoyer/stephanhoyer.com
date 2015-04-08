@@ -7,7 +7,7 @@ modified:
 categories:
 date: 2015-04-09T09:16:00-07:00
 draft: false
-comments: false
+comments: true
 ---
 
 Recently, [Dale Jung](http://dalejung.com) asked me about my heuristics for
@@ -21,13 +21,12 @@ to one person, here's an extended version of my reply.
 Most of the time, libraries like [NumPy](http://numpy.org),
 [SciPy](http://scipy.org) and [pandas](http://pandas.pydata.org), whose
 critical loops are already written in a compiled language like C, are enough
-fast scientific Python code.
-
-Unfortunately, sometimes you need to write your own loop in performance
-critical paths of your code, and also unfortunately, loops in Python are
-painfully slow. This is where Numba and Cython come in: they both promise the
-ability to write the inner loop of your code in something that looks a lot like
-normal Python, but that runs about as fast as handwritten C.
+fast scientific Python code. Unfortunately, sometimes you need to write your
+own loop in performance critical paths of your code, and also unfortunately,
+loops in Python are painfully slow. This is where Numba and Cython come in:
+they both promise the ability to write the inner loop of your code in something
+that looks a lot like normal Python, but that runs about as fast as handwritten
+C.
 
 Numba uses LLVM to power Just-In-Time compilation of array oriented Python
 code. Using Numba is usually about as simple as adding a decorator to your
@@ -160,3 +159,7 @@ At the end of the day, even if you ultimately can't get things to work, you'll
 still have idiomatic Python code that should be easy to accelerate with Cython.
 
 [^1]: `numpy.mean` is faster still, at ~60 µs, but here we're pretending that we need to write our own custom function that is not already built in. It's still impressive that we're only 50% slower than highly tuned C.
+
+<hr />
+
+This post is a [cross posted](http://eng.climate.com/2015/04/09/numba-vs-cython-how-to-choose) to The Climate Corporation Engineering blog.
