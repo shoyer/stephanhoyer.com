@@ -5,9 +5,9 @@ excerpt: "The non-performance trade-offs between using Numba and Cython for
 accelerating scientific Python code"
 modified:
 categories:
-date: 2015-03-22T17:00:00-07:00
-draft: true
-comments: true
+date: 2015-04-08T16:16:00-07:00
+draft: false
+comments: false
 ---
 
 Recently, [Dale Jung](http://dalejung.com) asked me about my heuristics for
