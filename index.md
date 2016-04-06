@@ -10,7 +10,7 @@ image:
   </div>
 </footer>
 
-# About
+# About me
 
 I am a physicist, data scientist and software engineer.
 
