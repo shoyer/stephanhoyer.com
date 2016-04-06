@@ -10,21 +10,23 @@ image:
   </div>
 </footer>
 
-# Work
+# About
 
-Since September 2013, I have worked as a research scientist at [The Climate
-Corporation](http://climate.com), where I build statistical models for climate
-and weather data.
-These models help farmers make better decisions, such as when to plant and how
-much fertilizer to apply.
+I am a physicist, data scientist and software engineer.
 
-# Education
+Currently, I am a software engineer and researcher at Google on the Accelerated
+Sciences team, which leverages Google's unique expertise to solve scientific
+research problems. For example, my team has used [deep learning for drug discovery](http://googleresearch.blogspot.com/2015/03/large-scale-machine-learning-for-drug.html).
 
-**University of Calfornia, Berkeley**<br />
-Ph.D Physics, 2013
+Previously, I was a research scientist at [The Climate
+Corporation](http://climate.com), where I worked on models of weather and climate
+risk for agriculture. At Climate, I wrote [xarray](https://github.com/pydata/xarray), a
+library for labeled arrays in Python.
 
-**Swarthmore College**<br />
-B.A. Physics, 2008
+I am also a [frequent contributor](/software) to the open source scientific Python stack.
+
+I have a [Ph.D in Physics](/physics) from UC Berkeley (2013), and a B.A. in Physics from
+Swarthmore College (2008).
 
 # Contact
 
