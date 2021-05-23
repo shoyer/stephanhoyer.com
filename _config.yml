@@ -1,7 +1,7 @@
 # Site wide configuration
 
 title: Stephan Hoyer
-description: "Physicist, data scientist and scientific Python developer."
+description: "Computational scientist and software developer."
 locale: en_US
 url: http://stephanhoyer.com
 # url: http://localhost:4000
@@ -31,7 +31,7 @@ kramdown:
 owner:
   name: Stephan Hoyer
   avatar: stephan-hoyer.jpg
-  bio: "Physicist, data scientist and scientific Python developer."
+  bio: "Computational scientist and software developer."
   email:
   disqus-shortname: shoyer
   twitter: shoyer

@@ -1,7 +1,6 @@
 ---
 layout: page
-image:
-  feature: lost-coast.jpg
+modified: 2021-05-23
 ---
 
 <footer role="contentinfo">
@@ -12,21 +11,20 @@ image:
 
 # About me
 
-I am a physicist, data scientist and software engineer.
+I am a computational scientist and software engineer.
 
-Currently, I am a software engineer and researcher at Google on the Accelerated
-Sciences team, which leverages Google's unique expertise to solve scientific
-research problems. For example, my team has used [deep learning for drug discovery](http://googleresearch.blogspot.com/2015/03/large-scale-machine-learning-for-drug.html).
+Since 2016, I have been a software engineer and researcher at Google on the
+Applied Sciences team. My [current research focus](/science) is on machine
+learning for scientific computing. I am also a [frequent contributor](/software)
+to open source software for scientific computing in Python.
 
-Previously, I was a research scientist at [The Climate
+Previously, I was a data scientist at [The Climate
 Corporation](http://climate.com), where I worked on models of weather and climate
 risk for agriculture. At Climate, I wrote [xarray](https://github.com/pydata/xarray), a
 library for labeled arrays in Python.
 
-I am also a [frequent contributor](/software) to the open source scientific Python stack.
-
-I have a [Ph.D in Physics](/physics) from UC Berkeley (2013), and a B.A. in Physics from
-Swarthmore College (2008).
+Before that, I did a Ph.D in Physics from UC Berkeley (2013), and a B.A. in
+Physics from Swarthmore College (2008).
 
 # Contact
 

@@ -1,37 +1,41 @@
 ---
 layout: page
 title: "Software"
-modified: 2015-02-01
+modified: 2021-05-23
 ---
 
-I write open source tools for scientific computing in Python.
+In my spare time, I contribute to open source tools for scientific computing in
+Python; see [my GitHub profile](https://github.com/shoyer) for details.
 
-## pandas
+Highlights:
 
-[pandas](http://pandas.pydata.org/) is a foundational library for data analysis in
-Python. I have been a member of the core development team since December 2014.
-My main interest with pandas has been extending its capabilities to meet the
-needs of physical scientists.
+- [Xarray](https://github.com/pydata/xarray) has become a standard tool
+  for analyzing weather and climate data, and is also used in
+  [many other scientific domains](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7605314348902559849,16897225769943537668,9041174076192873931,2969260840272984600).
+  I am the original creator, and now maintain it along with about a dozen other
+  core developers. The project has received hundreds of thousands of dollars in
+  grant funding from the [Chan-Zuckerberg Initiative](https://chanzuckerberg.com/eoss/proposals/xarray-multidimensional-labeled-arrays-and-datasets-in-python/).
+- [NumPy](https://github.com/numpy/numpy) is the fundamental package for
+  scientific computing with Python. I'm on the NumPy steering council
+  and wrote a number of [NEPs](https://numpy.org/neps/) focused on
+  inter-operability between NumPy and other array libraries.
+- [JAX](https://github.com/google/jax) is a Google project focused on machine
+  learning research. I have made and reviewed many contributions to JAX, with a
+  focus on scientific use-cases such as `jax.scipy`.
+- [JAX-CFD](https://github.com/google/jax-cfd) is a research project
+  implementing methods for computational fluid dynamics in JAX.
 
-## xray
+Other projects I created:
 
-[xray](http://xray.readthedocs.org) brings the labeled data power of pandas to
-the physical sciences, by providing N-dimensional variants of the core pandas
-data structures. It was designed to meet the needs of weather and climate data
-scientists for working with data in the form of multi-dimensional, labeled
-arrays (e.g., as found in netCDF files).
+- [Xarray-Beam](https://github.com/google/xarray-beam) is a library for
+  distributed computing with Xarray and Apache Beam.
+- [h5netcdf](https://github.com/h5netcdf/h5netcdf) is an alternative
+  implementation of the netCDF4 file-format in Python.
+- [numbagg](https://github.com/shoyer/numbagg) is an experimental project that
+  uses numba and NumPy universal functions to write fast N-dimensional array
+  aggregation functions with very little boilerplate code.
+- [cyordereddict](https://github.com/shoyer/cyordereddict) was a port of the
+  Python standard library's `OrderedDict` to Cython. It ran 2-6x faster.
 
-## numbagg
-
-[numbagg](https://github.com/shoyer/numbagg) is an experimental project that
-uses numba and NumPy universal functions to write fast N-dimensional array
-aggregation functions with very little boilerplate code.
-
-## cyordereddict
-
-[cyordereddict](https://github.com/shoyer/cyordereddict) is a port of the
-Python standard library's `OrderedDict` to Cython. It runs 2-6x faster.
-
-<hr />
-
-More details about my open source contributions can be found on [GitHub](https://github.com/shoyer).
+In the past, I have been a core developer for [Dask](https://github.com/dask/dask)
+and [Pandas](https://github.com/pandas-dev/pandas)
