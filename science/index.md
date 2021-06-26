@@ -7,7 +7,7 @@ modified: 2021-05-23
 ## Google Research
 
 At Google I work on machine learning for science, with a focus on scientific
-computing.
+computing and applications in climate/weather modeling.
 
 I believe that the combination of automatic differentiation software
 (e.g., JAX), accelerator hardware (GPU, TPU, etc.) and deep learning are posed

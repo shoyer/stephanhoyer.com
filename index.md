@@ -14,9 +14,10 @@ modified: 2021-05-23
 I am a computational scientist and software engineer.
 
 Since 2016, I have been a software engineer and researcher at Google on the
-Applied Sciences team. My [current research focus](/science) is on machine
-learning for scientific computing. I am also a [frequent contributor](/software)
-to open source software for scientific computing in Python.
+Applied Sciences team, where I focus on the potential of
+[deep learning for scientific computing problems](/science) such as climate &
+weather modeling. I am also a leader in the broader
+[open source software](/software) community for scientific computing in Python.
 
 Previously, I was a data scientist at [The Climate
 Corporation](http://climate.com), where I worked on models of weather and climate
