@@ -4,9 +4,9 @@ title: "Software"
 modified: 2021-05-23
 ---
 
-I am a core contributor to many of the leading open source tools for scientific
-computing in Python; see [my GitHub profile](https://github.com/shoyer) for
-details.
+I am a core contributor and maintainer for many of the leading open source tools
+for scientific computing in Python; see
+[my GitHub profile](https://github.com/shoyer) for details.
 
 Highlights:
 
@@ -25,8 +25,6 @@ Highlights:
 - [JAX](https://github.com/google/jax) is a Google project focused on machine
   learning research. I have made and reviewed many contributions to JAX, with a
   focus on scientific use-cases such as `jax.scipy`.
-- [JAX-CFD](https://github.com/google/jax-cfd) is a research project
-  implementing methods for computational fluid dynamics in JAX.
 
 Other projects I created:
 
