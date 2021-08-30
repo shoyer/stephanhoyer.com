@@ -11,25 +11,18 @@ modified: 2021-05-23
 
 # About me
 
-I am a computational scientist and software engineer.
+I am a versatile physicist, computational scientist and software engineer:
 
-Since 2016, I have been a software engineer and researcher at Google on the
-Applied Sciences team, where I focus on the potential of
-[deep learning for scientific computing problems](/science) such as climate &
-weather modeling. I am also a leader in the broader
-[open source software](/software) community for scientific computing in Python.
+- I am a research lead at Google on the Applied Sciences team, where I focus on
+the potential of [deep learning for scientific computing](/science) such as climate &
+weather modeling.
+- I am also a leader in the [open source software](/software) community for
+scientific computing in Python (e.g., Xarray, NumPy and JAX).
 
-Previously, I was a data scientist at [The Climate
-Corporation](http://climate.com), where I worked on models of weather and climate
-risk for agriculture. At Climate, I wrote [xarray](https://github.com/pydata/xarray), a
-library for labeled arrays in Python.
-
-Before that, I did a Ph.D in Physics from UC Berkeley (2013), and a B.A. in
-Physics from Swarthmore College (2008).
+I have a Ph.D at UC Berkeley and a B.A. at from Swarthmore College, both in physics.
 
 # Contact
 
-<p>
 I live in San Francisco, California.
 Reach me on <a href="https://twitter.com/shoyer">Twitter</a>, or by email at
 <shoyer@gmail.com> or <shoyer@google.com>.

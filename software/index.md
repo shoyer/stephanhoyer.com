@@ -13,9 +13,9 @@ Highlights:
 - [Xarray](https://github.com/pydata/xarray) has become a standard tool
   for analyzing multi-dimensional datasets in Python (especially weather/climate
   data), and has contributed to [hundreds of scientific papers](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7605314348902559849,16897225769943537668,9041174076192873931,2969260840272984600).
-  I am the original creator, and now maintain it along with about a dozen other
-  core developers. The project received hundreds of thousands of dollars in
-  grant funding from the [Chan-Zuckerberg Initiative](https://chanzuckerberg.com/eoss/proposals/xarray-multidimensional-labeled-arrays-and-datasets-in-python/).
+  I created Xarray when I was a data scientist for The Climate Corporation,
+  and now maintain it along with about a dozen other core developers. The project received hundreds of thousands of dollars in
+  grant funding from the [Chan-Zuckerberg Initiative](https://chanzuckerberg.com/eoss/proposals/xarray-multidimensional-labeled-arrays-and-datasets-in-python/) and [NASA](https://medium.com/@numfocus/numfocus-projects-receive-nasa-grants-deee374e7a57), among others.
 - [NumPy](https://github.com/numpy/numpy) is the fundamental package for
   scientific computing with Python, with
   [millions of users](https://bids.berkeley.edu/news/numpy-array-programming-core-scientific-python-ecosystem) in academia and
