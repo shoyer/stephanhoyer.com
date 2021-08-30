@@ -31,6 +31,5 @@ Physics from Swarthmore College (2008).
 
 <p>
 I live in San Francisco, California.
-Reach me on <a href="https://twitter.com/shoyer">Twitter</a> or at
-<script>document.write("<n uers=\"znvygb:fublre@tznvy.pbz\">fublre@tznvy.pbz</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}))</script><noscript><span style="unicode-bidi:bidi-override;direction:rtl;">moc.liamg@reyohs</span></noscript>
-</p>
+Reach me on <a href="https://twitter.com/shoyer">Twitter</a>, or by email at
+<shoyer@gmail.com> or <shoyer@google.com>.
