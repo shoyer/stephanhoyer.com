@@ -1,6 +1,6 @@
 ---
 layout: page
-modified: 2021-05-23
+modified: 2021-12-30
 ---
 
 <footer role="contentinfo">
@@ -21,8 +21,11 @@ scientific computing in Python (e.g., Xarray, NumPy and JAX).
 
 I have a Ph.D at UC Berkeley and a B.A. at from Swarthmore College, both in physics.
 
+You can find my hot takes [on Twitter](https://twitter.com/shoyer), my code
+[on GitHub](https://github.com/shoyer) and my papers
+[on Google Scholar](https://scholar.google.com/citations?user=bWTG5FgAAAAJ).
+
 # Contact
 
 I live in San Francisco, California.
-Reach me on <a href="https://twitter.com/shoyer">Twitter</a>, or by email at
-<shoyer@gmail.com> or <shoyer@google.com>.
+Reach me by email at <shoyer@gmail.com> or <shoyer@google.com>.
