@@ -1,6 +1,6 @@
 ---
 layout: page
-modified: 2021-12-30
+modified: 2021-01-25
 ---
 
 <footer role="contentinfo">
@@ -11,11 +11,10 @@ modified: 2021-12-30
 
 # About me
 
-I am a versatile physicist, computational scientist and software engineer:
+I am a research scientist and software engineer with broad expertise in deep learning and scientific computing:
 
 - I am a research lead at Google on the Applied Sciences team, where I focus on
-the potential of [deep learning for scientific computing](/science) such as climate &
-weather modeling.
+[deep learning for scientific computing challenges in the physical sciences](/science), such as climate & weather modeling.
 - I am also a leader in the [open source software](/software) community for
 scientific computing in Python (e.g., Xarray, NumPy and JAX).
 
