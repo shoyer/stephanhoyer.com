@@ -21,9 +21,9 @@ also have their own open source releases — including
 
 [Xarray](https://xarray.dev) is a library for multi-dimensional labeled data
 in Python that has been widely adopted across weather and climate, geospatial
-analysis, plasma physics, genomics, and finance. The project is
-[downloaded **~5m times per week**](https://pypistats.org/packages/xarray),
-with **4,000+ stars** and **500+ contributors** on GitHub.
+analysis, plasma physics, genomics, and finance. The project is downloaded
+[**~5m times per week**](https://pypistats.org/packages/xarray), with
+**4,000+ stars** and **500+ contributors** on GitHub.
 
 I created Xarray in 2014 while at The Climate Corporation and continue to
 lead the project, working with a team of 21 volunteer and grant-funded
