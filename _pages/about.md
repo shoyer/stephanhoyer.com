@@ -41,7 +41,7 @@ nanophotonics, quantum chemistry, structural engineering, flood modeling and
 fundamental physics.
 
 I'm also a long-time contributor to the open source scientific Python stack.
-I created [Xarray](https://xarray.dev) — now downloaded ~5m times per week —
+I created [Xarray](https://xarray.dev) — now [downloaded ~5m times per week](https://pypistats.org/packages/xarray) —
 and previously served on the NumPy steering council.
 
 I have a Ph.D. in physics from UC Berkeley and a B.A. in physics from
