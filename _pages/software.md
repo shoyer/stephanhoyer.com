@@ -17,7 +17,7 @@ also have their own open source releases — including
 [Dinosaur](https://github.com/neuralgcm/dinosaur) and others. See
 [Research](/research/) for the full picture.
 
-## Xarray — primary author
+## Xarray
 
 [Xarray](https://xarray.dev) is a library for multi-dimensional labeled data
 in Python that has been widely adopted across weather and climate, geospatial
@@ -30,14 +30,14 @@ lead the project, working with a team of 21 volunteer and grant-funded
 developers. Xarray has received over $500,000 in grant funding from the NSF,
 NASA, Nvidia and the [Chan-Zuckerberg Initiative](https://chanzuckerberg.com/eoss/proposals/xarray-multidimensional-labeled-arrays-and-datasets-in-python/).
 
-## Xarray-Beam — primary author
+## Xarray-Beam
 
 [Xarray-Beam](https://github.com/google/xarray-beam) implements reliable
 large-scale data pipelines on Xarray data using the map-reduce paradigm
 (via Apache Beam). Six weather research teams at Google use it to process
 petabytes of data.
 
-## NumPy — former steering council member
+## NumPy
 
 I served on the [NumPy](https://numpy.org) steering council from 2015 to
 2024 and authored six [NumPy Enhancement Proposals](https://numpy.org/neps/), focused
@@ -45,7 +45,7 @@ on interoperability between NumPy and other array libraries. Contributions
 include widely used functionality such as `broadcast_to`, `stack`, `moveaxis`
 and `__array_function__`.
 
-## JAX — committer
+## JAX
 
 I have contributed [100+ pull requests](https://github.com/jax-ml/jax/pulls?q=is%3Apr+author%3Ashoyer)
 to [JAX](https://github.com/jax-ml/jax), focused on matrix-free linear algebra
