@@ -32,10 +32,11 @@ NASA, Nvidia and the [Chan-Zuckerberg Initiative](https://chanzuckerberg.com/eos
 
 ## Xarray-Beam
 
-[Xarray-Beam](https://github.com/google/xarray-beam) implements reliable
-large-scale data pipelines on Xarray data using the map-reduce paradigm
-(via Apache Beam). Six weather research teams at Google use it to process
-petabytes of data.
+I am a primary author of
+[Xarray-Beam](https://github.com/google/xarray-beam), which implements
+reliable large-scale data pipelines on Xarray data using the map-reduce
+paradigm (via Apache Beam). Six weather research teams at Google use it
+to process petabytes of data.
 
 ## NumPy
 
