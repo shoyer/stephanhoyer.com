@@ -56,8 +56,6 @@ publications (two in *PNAS*) and over 2,000 citations.
   D Kochkov, …, **S Hoyer**. *PNAS* (2021).
 - [Learning data-driven discretizations for partial differential equations](https://www.pnas.org/doi/10.1073/pnas.1814058116).
   Y Bar-Sinai\*, **S Hoyer**\*, J Hickey, MP Brenner. *PNAS* (2019).
-- [Variational data assimilation with a learned inverse observation operator](https://arxiv.org/abs/2102.11192).
-  *ICML* (2021).
 
 ## AI for physics
 

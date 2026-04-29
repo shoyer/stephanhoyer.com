@@ -13,7 +13,7 @@ profile:
     <div><i class="fa-brands fa-github"></i><a href="https://github.com/shoyer">GitHub</a></div>
     <div><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/stephanhoyer">LinkedIn</a></div>
     <div><i class="ai ai-google-scholar"></i><a href="https://scholar.google.com/citations?user=bWTG5FgAAAAJ">Google Scholar</a></div>
-    <div><i class="fa-brands fa-x-twitter"></i><a href="https://twitter.com/shoyer">Twitter/X</a></div>
+    <div><i class="fa-brands fa-x-twitter"></i><a href="https://x.com/shoyer">Twitter/X</a></div>
 
 selected_papers: false
 social: false

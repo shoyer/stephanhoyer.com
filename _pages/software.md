@@ -39,8 +39,8 @@ petabytes of data.
 
 ## NumPy — former steering council member
 
-I served on the [NumPy](https://numpy.org) steering council from 2015 and
-authored six [NumPy Enhancement Proposals](https://numpy.org/neps/), focused
+I served on the [NumPy](https://numpy.org) steering council from 2015 to
+2024 and authored six [NumPy Enhancement Proposals](https://numpy.org/neps/), focused
 on interoperability between NumPy and other array libraries. Contributions
 include widely used functionality such as `broadcast_to`, `stack`, `moveaxis`
 and `__array_function__`.
@@ -55,7 +55,7 @@ and scientific computing — including much of `jax.scipy`.
 
 - [h5netcdf](https://github.com/h5netcdf/h5netcdf) — an alternative
   implementation of the netCDF4 file format in Python.
-- [numbagg](https://github.com/shoyer/numbagg) — fast N-dimensional
+- [numbagg](https://github.com/numbagg/numbagg) — fast N-dimensional
   aggregation functions built with Numba and NumPy ufuncs.
 - [cyordereddict](https://github.com/shoyer/cyordereddict) — a Cython port of
   the Python standard library's `OrderedDict`, 2–6× faster.
