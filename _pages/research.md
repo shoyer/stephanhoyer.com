@@ -37,8 +37,7 @@ in collaboration with the University of Chicago and the Indian Ministry of
 Agriculture. A follow-on paper extended NeuralGCM to predict precipitation
 directly from satellite observations, substantially improving on existing
 GCMs and a global cloud-resolving model — particularly for the most intense
-rainfall events. We are currently finalizing a $5M grant to a non-profit
-partner to develop NeuralGCM into a full coupled climate model.
+rainfall events.
 
 On the technical side, I personally implemented many of the key components,
 including model and data parallelism scaling to 256 TPUs.
