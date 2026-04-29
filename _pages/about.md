@@ -1,18 +1,22 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: Member of Technical Staff, <a href="https://periodic.com">Periodic Labs</a>. San Francisco, CA.
+subtitle: Member of Technical Staff, Periodic Labs. San Francisco, CA.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
   more_info: >
-    <p>San Francisco, CA</p>
+    <div><i class="fa-solid fa-envelope"></i><a href="mailto:shoyer@gmail.com">shoyer@gmail.com</a></div>
+    <div><i class="fa-brands fa-github"></i><a href="https://github.com/shoyer">GitHub</a></div>
+    <div><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/stephanhoyer">LinkedIn</a></div>
+    <div><i class="ai ai-google-scholar"></i><a href="https://scholar.google.com/citations?user=bWTG5FgAAAAJ">Google Scholar</a></div>
+    <div><i class="fa-brands fa-x-twitter"></i><a href="https://twitter.com/shoyer">Twitter/X</a></div>
 
 selected_papers: false
-social: true
+social: false
 
 announcements:
   enabled: false
@@ -24,9 +28,8 @@ latest_posts:
 I am a research scientist and software engineer working at the intersection
 of deep learning, physics and scientific computing.
 
-In March 2026, I joined [Periodic Labs](https://periodic.com) as a Member of
-Technical Staff. Periodic is a startup building AI tools for the physical
-sciences.
+In March 2026, I joined [Periodic Labs](https://periodic.com), a startup
+building AI tools for the physical sciences.
 
 Before that, I spent a decade at Google Research, where I conceived and led
 [NeuralGCM](https://github.com/neuralgcm/neuralgcm), the first AI-based
@@ -38,11 +41,8 @@ nanophotonics, quantum chemistry, structural engineering, flood modeling and
 fundamental physics.
 
 I'm also a long-time contributor to the open source scientific Python stack.
-I created [Xarray](https://xarray.dev) — now downloaded ~200,000 times a day —
+I created [Xarray](https://xarray.dev) — now downloaded ~5m times per week —
 and previously served on the NumPy steering council.
 
 I have a Ph.D. in physics from UC Berkeley and a B.A. in physics from
 Swarthmore College.
-
-I live in San Francisco. Reach me by email at
-[shoyer@gmail.com](mailto:shoyer@gmail.com).

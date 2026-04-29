@@ -1,6 +1,6 @@
 ---
 layout: page
-title: talks
+title: Talks
 permalink: /talks/
 nav: true
 nav_order: 3
@@ -16,7 +16,9 @@ An overview of NeuralGCM, a technical deep-dive into the model, and my
 perspective on the field of AI weather and climate modeling. This is the
 talk I'd recommend if you only watch one.
 
-[▶ Watch on YouTube](https://www.youtube.com/watch?v=n4Rw3RlpyJw)
+<div style="position: relative; width: 100%; padding-bottom: 56.25%; margin: 1.5em 0;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" src="https://www.youtube-nocookie.com/embed/n4Rw3RlpyJw" title="Google's AI-based Weather and Climate Modeling with NeuralGCM" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## NeuralGCM — CLEX Seminar Series
 
