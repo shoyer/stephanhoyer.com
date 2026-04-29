@@ -34,10 +34,7 @@ among others. The open-source model has since been used to produce
 state-of-the-art
 [monsoon-onset forecasts sent to 38 million farmers in India](https://blog.google/technology/research/indian-farmers-monsoon-prediction/),
 in collaboration with the University of Chicago and the Indian Ministry of
-Agriculture. A follow-on paper extended NeuralGCM to predict precipitation
-directly from satellite observations, substantially improving on existing
-GCMs and a global cloud-resolving model — particularly for the most intense
-rainfall events.
+Agriculture.
 
 On the technical side, I personally implemented many of the key components,
 including model and data parallelism scaling to 256 TPUs.
