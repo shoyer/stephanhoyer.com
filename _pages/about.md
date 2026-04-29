@@ -26,7 +26,7 @@ latest_posts:
 ---
 
 I am a research scientist and software engineer working at the intersection
-of deep learning, physics and scientific computing.
+of AI, physics and scientific computing.
 
 In March 2026, I joined [Periodic Labs](https://periodic.com), a startup
 building AI tools for the physical sciences.
