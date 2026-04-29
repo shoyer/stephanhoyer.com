@@ -8,8 +8,8 @@ middle_name:
 last_name: Hoyer
 contact_note:
 description: >
-  Research scientist and software engineer working at the intersection of
-  AI, physics and scientific computing.
+  Computational scientist working at the intersection of AI, physics and
+  scientific computing.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: stephan hoyer, ai for science, machine learning, climate, weather, neuralgcm, xarray, jax, scientific computing
