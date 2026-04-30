@@ -25,6 +25,10 @@ climate simulations. It combines a differentiable atmospheric dynamical core
 written in JAX with learned parameterizations for sub-grid physics, and is
 trained end-to-end on reanalysis data.
 
+<video autoplay loop muted playsinline style="width: 100%; height: auto; margin-bottom: 1rem; display: block;">
+  <source src="{{ '/assets/video/neuralgcm.mp4' | relative_url }}" type="video/mp4">
+</video>
+
 The work was published in *Nature* (2024) with 16 co-authors, and received
 press coverage in
 [Bloomberg](https://www.bloomberg.com/news/articles/2024-07-22/google-develops-highly-accurate-ai-enhanced-weather-simulator)

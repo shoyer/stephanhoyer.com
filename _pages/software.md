@@ -19,6 +19,8 @@ also have their own open source releases — including
 
 ## Xarray
 
+<img src="{{ '/assets/img/xarray-logo.svg' | relative_url }}" alt="Xarray logo" style="float: right; width: 300px; margin: 0 0 1rem 1.5rem;">
+
 [Xarray](https://xarray.dev) is a library for multi-dimensional labeled data
 in Python that has been widely adopted across weather and climate, geospatial
 analysis, plasma physics, genomics, and finance. The project is downloaded
