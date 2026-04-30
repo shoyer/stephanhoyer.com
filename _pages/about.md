@@ -25,7 +25,7 @@ latest_posts:
   enabled: false
 ---
 
-I am a computational scientist working at the intersection
+I am a research scientist and software engineer working at the intersection
 of AI, physics and scientific computing.
 
 In March 2026, I joined [Periodic Labs](https://periodic.com), a startup
