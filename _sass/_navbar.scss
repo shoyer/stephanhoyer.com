@@ -6,9 +6,19 @@
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
+}
+
+.navbar::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -6px;
+  height: 6px;
+  background: url('/images/fractal-header.jpg') center / auto repeat-x;
+  pointer-events: none;
 }
 
 .navbar .dropdown-menu,
