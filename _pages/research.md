@@ -18,7 +18,7 @@ For a complete list, see my
 ## AI for weather and climate
 
 I conceived and led the
-[Neural General Circulation Models](https://github.com/neuralgcm/neuralgcm)
+[Neural General Circulation Models](https://research.google/blog/fast-accurate-climate-modeling-with-neuralgcm/)
 project at Google Research. NeuralGCM is the first AI-based model to improve
 on traditional physics-based 15-day weather forecasts and atmosphere-only
 climate simulations. It combines a differentiable atmospheric dynamical core
