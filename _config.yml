@@ -14,7 +14,7 @@ footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: stephan hoyer, ai for science, machine learning, climate, weather, neuralgcm, xarray, jax, scientific computing
 lang: en
-icon: 🌎
+icon: favicon.ico
 
 url: https://stephanhoyer.com
 baseurl:
@@ -195,13 +195,11 @@ keep_files:
 # Plug-ins
 plugins:
   - jekyll-3rd-party-libraries
-  - jekyll-archives-v2
   - jekyll-cache-bust
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
   - jekyll-imagemagick
-  - jekyll-jupyter-notebook
   - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-paginate-v2
@@ -209,10 +207,7 @@ plugins:
   - jekyll/scholar
   - jekyll-sitemap
   - jekyll-socials
-  - jekyll-tabs
-  - jekyll-terser
   - jekyll-toc
-  - jekyll-twitter-plugin
   - jemoji
 
 # Sitemap settings
