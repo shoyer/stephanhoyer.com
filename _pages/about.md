@@ -44,5 +44,5 @@ I'm also a long-time contributor to the open source scientific Python stack.
 I created [Xarray](https://xarray.dev) — now downloaded [~5m times per week](https://pypistats.org/packages/xarray) —
 and previously served on the NumPy steering council.
 
-I have a Ph.D. in physics from UC Berkeley and a B.A. in physics from
-Swarthmore College.
+I am a physicist by training, with a Ph.D from UC Berkeley and a B.A.
+from Swarthmore College.
