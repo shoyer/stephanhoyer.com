@@ -6,15 +6,24 @@ nav: true
 nav_order: 3
 ---
 
-A few selected talks.
+## Can AI surpass physics? A case study in weather & climate modeling
+
+*NeurIPS AI for Science Workshop, San Diego — December 2025.*
+
+An invited talk on what the successes and challenges of
+AI-based weather and climate modeling tells us about the potential
+for replacing traditional physics-based approaches.
+
+<a href="https://neurips.cc/virtual/2025/loc/san-diego/136471">
+  <img src="{{ '/assets/img/neurips-2025-thumbnail.jpg' | relative_url }}" alt="Can AI surpass physics? — NeurIPS 2025 talk" style="width: 100%; height: auto; margin: 1rem 0;">
+</a>
 
 ## Google's AI-based Weather and Climate Modeling with NeuralGCM
 
 *BuzzRobot, Palo Alto — October 2024.*
 
-An overview of NeuralGCM, a technical deep-dive into the model, and my
-perspective on the field of AI weather and climate modeling. This is the
-talk I'd recommend if you only watch one.
+An overview of NeuralGCM for a non-technical audience, and my
+perspective on the broader field of AI weather and climate modeling.
 
 <div style="position: relative; width: 100%; padding-bottom: 56.25%; margin: 1.5em 0;">
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" src="https://www.youtube-nocookie.com/embed/n4Rw3RlpyJw" title="Google's AI-based Weather and Climate Modeling with NeuralGCM" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

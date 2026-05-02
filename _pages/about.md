@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Member of Technical Staff, Periodic Labs. San Francisco, CA.
+subtitle:
 
 profile:
   align: right
@@ -25,8 +25,8 @@ latest_posts:
   enabled: false
 ---
 
-I am a research scientist and software engineer working at the intersection
-of AI, physics and scientific computing.
+I am a computational scientist based in San Francisco, working at the
+intersection of AI, physics and scientific computing.
 
 In March 2026, I joined [Periodic Labs](https://periodic.com), a startup
 building AI tools for the physical sciences.

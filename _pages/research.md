@@ -6,10 +6,10 @@ nav: true
 nav_order: 1
 ---
 
-I work on deep learning for the physical sciences, with a particular focus on
-weather and climate modeling and on accelerating scientific simulations. My
-collaborators and I have published in *Nature*, *Science*, *PNAS*, *Physical
-Review Letters* and *NeurIPS*.
+My research has focused on deep learning for the physical sciences,
+particularly weather and climate modeling and accelerating scientific
+simulations. My collaborators and I have published in *Nature*, *Science*,
+*PNAS*, *Physical Review Letters* and *NeurIPS*.
 
 For a complete list, see my
 [Google Scholar profile](https://scholar.google.com/citations?user=bWTG5FgAAAAJ)

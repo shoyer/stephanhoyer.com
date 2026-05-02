@@ -40,6 +40,15 @@ reliable large-scale data pipelines on Xarray data using the map-reduce
 paradigm (via Apache Beam). Six weather research teams at Google use it
 to process petabytes of data.
 
+## Coordax
+
+With Dmitrii Kochkov, I built
+[Coordax](https://github.com/neuralgcm/coordax) — labeled axes for JAX,
+in the spirit of Xarray but tailored to physics- and AI-based simulation
+codes. Coordax was developed to meet the needs of NeuralGCM and supports
+arbitrary JAX transformations, lossless conversion to and from Xarray,
+and easy wrapping of code not written for labeled arrays.
+
 ## NumPy
 
 I served on the [NumPy](https://numpy.org) steering council from 2015 to
