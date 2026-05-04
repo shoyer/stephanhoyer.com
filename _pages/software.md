@@ -45,9 +45,9 @@ to process petabytes of data.
 With Dmitrii Kochkov, I built
 [Coordax](https://github.com/neuralgcm/coordax) — labeled axes for JAX,
 in the spirit of Xarray but tailored to physics- and AI-based simulation
-codes. Coordax was developed to meet the needs of NeuralGCM and supports
-arbitrary JAX transformations, lossless conversion to and from Xarray,
-and easy wrapping of code not written for labeled arrays.
+codes like NeuralGCM. Coordax supports arbitrary JAX transformations,
+lossless conversion to and from Xarray, and easy wrapping of code not
+written for labeled arrays.
 
 ## NumPy
 
