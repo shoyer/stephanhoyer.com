@@ -9,7 +9,7 @@ nav_order: 1
 My research has focused on deep learning for the physical sciences,
 particularly weather and climate modeling and accelerating scientific
 simulations. My collaborators and I have published in *Nature*, *Science*,
-*PNAS*, *Physical Review Letters* and *NeurIPS*.
+*Proceedings of the National Academy of Sciences*, *Physical Review Letters* and *NeurIPS*.
 
 For a complete list, see my
 [Google Scholar profile](https://scholar.google.com/citations?user=bWTG5FgAAAAJ)
@@ -54,12 +54,12 @@ including model and data parallelism scaling to 256 TPUs.
 
 For several years I led a research program on accelerating fluid simulations
 using deep learning and Google TPUs. The program produced six peer-reviewed
-publications (two in *PNAS*) and over 2,000 citations.
+publications (two in *Proceedings of the National Academy of Sciences*) and over 2,000 citations.
 
 - [Machine learning–accelerated computational fluid dynamics](https://www.pnas.org/doi/10.1073/pnas.2101784118).
-  D Kochkov, …, **S Hoyer**. *PNAS* (2021).
+  D Kochkov, …, **S Hoyer**. *Proceedings of the National Academy of Sciences* (2021).
 - [Learning data-driven discretizations for partial differential equations](https://www.pnas.org/doi/10.1073/pnas.1814058116).
-  Y Bar-Sinai\*, **S Hoyer**\*, J Hickey, MP Brenner. *PNAS* (2019).
+  Y Bar-Sinai\*, **S Hoyer**\*, J Hickey, MP Brenner. *Proceedings of the National Academy of Sciences* (2019).
 
 ## AI for physics
 
