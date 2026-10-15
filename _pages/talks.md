@@ -54,7 +54,7 @@ fluid dynamics, structural optimization, and quantum chemistry.
 
 *SciPy 2015.*
 
-The original Xarray launch talk. Why labeled multi-dimensional arrays make
+An early talk on Xarray. Why labeled multi-dimensional arrays make
 working with scientific data dramatically easier, and how Xarray builds on
 NumPy and Pandas.
 
