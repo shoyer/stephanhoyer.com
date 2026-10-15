@@ -54,7 +54,7 @@ including model and data parallelism scaling to 256 TPUs.
 
 For several years I led a research program on accelerating fluid simulations
 using deep learning and Google TPUs. The program produced six peer-reviewed
-publications (two in *Proceedings of the National Academy of Sciences*) and over 2,000 citations.
+publications (two in *PNAS*) and over 2,000 citations.
 
 - [Machine learning–accelerated computational fluid dynamics](https://www.pnas.org/doi/10.1073/pnas.2101784118).
   D Kochkov, …, **S Hoyer**. *Proceedings of the National Academy of Sciences* (2021).
